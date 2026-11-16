@@ -1,0 +1,9 @@
+backbone,method,art_painting,cartoon,photo,sketch,avg,ece_pct,trained_params,gpu_memory_gb
+ResNet-50,"ERM, all weights trained (baseline)",82.5,80.9,97.8,78.3,84.9,,23500000,
+DINOv2,linear probe,97.8,92.43,99.93,87.72,94.47,2.0,26887,1.4
+DINOv2,LoRA,96.22,95.58,100.0,86.35,94.54,3.4,469255,10.6
+DINOv2,full fine-tuning,96.58,92.96,99.85,84.8,93.55,3.4,86607367,17.1
+CLIP,zero-shot,98.8,99.1,99.8,91.0,97.2,,0,
+CLIP,linear probe,96.77,98.45,99.4,92.08,96.67,21.0,3591,1.2
+CLIP,LoRA,98.54,97.87,99.7,92.4,97.13,1.8,445959,8.9
+CLIP,full fine-tuning,96.64,96.32,99.03,89.63,95.41,2.5,111795720,12.8
